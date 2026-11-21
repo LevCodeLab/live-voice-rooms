@@ -1,0 +1,36 @@
+{
+  "name": "live-voice-rooms",
+  "version": "1.0.0",
+  "description": "Browser WebRTC live voice rooms with 1-click host mic broadcast, multi-listener audio, and lightweight WebSocket signaling",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev:server": "node --watch src/server.js",
+    "dev:web": "vite",
+    "start": "node src/server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "webrtc",
+    "voice-rooms",
+    "audio-streaming",
+    "websocket-signaling",
+    "react",
+    "webaudio"
+  ],
+  "author": "LevCodeLab",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
